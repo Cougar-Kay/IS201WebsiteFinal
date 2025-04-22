@@ -1,0 +1,56 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.common {
+    background-color: rgb(79, 168, 247);
+    border: 5px solid white;
+    /* position:absolute; */
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 145 px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 95 px;
+    position:relative;
+}
+
+a  {
+    color: blue;
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+ol li, ul li {
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+ol.center-text li, ul.center-text li {
+    text-align: center;
+}
+
+ol.right-text li, ul.right-text li {
+    text-align: right;
+}
+
+ol, ul {
+    list-style-position: inside; 
+    padding-left: 0; 
+}
+
+
+
